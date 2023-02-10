@@ -1,0 +1,13 @@
+.main {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.left{   
+    flex:25%;
+    position:sticky;
+}
+.right{   
+    flex:75%;
+    
+}
