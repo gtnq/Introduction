@@ -43,6 +43,10 @@ header nav ul li {
 article.intro {
     display:flex;
 }
+/* ref 
+https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
+*/
+
 aside img{
     -ms-flex:0 0 33.333333%;
     flex:0 0 33.333333%;
