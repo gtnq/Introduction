@@ -1,10 +1,12 @@
 * {
     background-color: #CAE9F5;
+    text-align: center;
 }
 main {
     display:flex;
     overflow: auto;
-       
+    
+    display:inline-block;
 }
 header { /* reduced number of fonts used that takes no effect on the origin website*/
     padding: 20px;
@@ -16,6 +18,7 @@ header { /* reduced number of fonts used that takes no effect on the origin webs
 header h1 {
     display: inline-block;
     font-size: 48px;
+    float: left;
     
 }
            
