@@ -1,16 +1,17 @@
 * {
     background-color: #CAE9F5;
-    
+
+    text-align:center;
 }
 main {
     
-    overflow: auto;
+    
     display:inline-block;
 }
-header { /* reduced number of fonts used that takes no effect on the origin website*/
+
+ /* ref https://github.com/gtnq/horiseon/blob/main/assets/css/style.css */
+header { 
     padding: 20px;
-    font-family: 'Trebuchet MS', sans-serif;
-    
     
 }
 
@@ -20,14 +21,11 @@ header h1 {
     float: left;
     
 }
-           
-
 
 header nav{               
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    
     font-size: 20px;
 }
  
@@ -43,6 +41,7 @@ header nav ul li {
 article.intro {
     display:flex;
 }
+
 /* ref 
 https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
 */
@@ -58,3 +57,26 @@ aside.contact{
     flex:0 0 66.666667%;
     max-width:66.666667%;
 }
+
+article.intro {
+    display:flex;
+}
+
+article.projects img.project1{
+    padding: 20px;
+    flex:0 0 60%;
+    max-width: 60%;
+}
+article p.project1 {
+}
+
+
+
+
+
+
+
+
+
+
+
