@@ -38,6 +38,9 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* ==================split==================*/
+
+
 article.intro {
     display:flex;
 }
@@ -60,6 +63,10 @@ aside.contact{
 aside.contact ul{
     list-style-type: none;
 }
+
+
+/* ==================split==================*/
+
 
 article.intro {
     display:flex;
