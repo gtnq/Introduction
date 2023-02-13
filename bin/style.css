@@ -46,7 +46,7 @@ article.intro {
 https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
 */
 
-aside img{
+aside.avatar img{
     -ms-flex:0 0 33.333333%;
     flex:0 0 33.333333%;
     max-width:33.333333%;
@@ -56,6 +56,9 @@ aside.contact{
     -ms-flex:0 0 66.666667%;
     flex:0 0 66.666667%;
     max-width:66.666667%;
+}
+aside.contact ul{
+    list-style-type: none;
 }
 
 article.intro {
