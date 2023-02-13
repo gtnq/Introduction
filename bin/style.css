@@ -1,11 +1,10 @@
 * {
     background-color: #CAE9F5;
-    text-align: center;
+    
 }
 main {
-    display:flex;
-    overflow: auto;
     
+    overflow: auto;
     display:inline-block;
 }
 header { /* reduced number of fonts used that takes no effect on the origin website*/
@@ -40,4 +39,18 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/*uselessupdate8*/
+
+article.intro {
+    display:flex;
+}
+aside img{
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+aside.contact{
+    -ms-flex:0 0 66.666667%;
+    flex:0 0 66.666667%;
+    max-width:66.666667%;
+}
