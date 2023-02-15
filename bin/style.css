@@ -1,6 +1,7 @@
 body {
     background-color: #D4F1F4;
     text-align: center;
+    
 }
 main {
     display:inline-block;
@@ -8,6 +9,7 @@ main {
 
  /* ref https://github.com/gtnq/horiseon/blob/main/assets/css/style.css */
 header { 
+
     padding: 20px;
     
 }
@@ -24,6 +26,7 @@ header nav{
     margin-right: 20px;
     float: right;
     font-size: 20px;
+    
 }
  
 header nav ul {
@@ -48,9 +51,6 @@ article.intro
     margin-left:auto;
     background-color: #75E6DA;
 }
-aside.avatar aside.contact{
-    
-}
     
 /* ref 
 https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
@@ -58,9 +58,11 @@ https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
 
 
 aside.avatar img{
+    padding-top: 20px;
     -ms-flex:0 0 49.333333%;
     flex:0 0 49.333333%;
     max-width:49.333333%;
+    padding-right: 30px;
     
 }
 
@@ -78,17 +80,21 @@ aside.contact ul{
 
 
 article.intro {
-    display:flex;
+    
 }
 
 article.projects img.project1{
     padding: 20px;
     flex:0 0 60%;
     max-width: 60%;
+    
 }
 article p.project1 {
 }
 
+h4 {
+    font-size:50px;
+}
 
 
 
